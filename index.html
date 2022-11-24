@@ -26,23 +26,32 @@
         </div>
     </div>
 
-    <div class="hero"></div>
-    <div class="content">
+    <figure>
+    <!--Changed from Div to figure as it's a self contained image-->
+    <img class="main-image" src="assets/images/digital-marketing-meeting.jpg" alt="four people having a meeting around a table"</img>
+    </figure>
+
+    <section class="main-content">
+        <!---Created section class to group the below content together-->
         <!---Alt attribute and description added to the image to clarify what is shown.-->
         <!--id added so the search engine optimization links to the correct section in the main part of the page-->
-        <div id="search-engine-optimization" class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="A notepad with a SEO Mind Mapping diagram presented on it. Coffee, pens and a laptop surround the notepad" class="float-left" </img>
+        <section id="search-engine-optimization" class="content-seo-opm-smm">
+            <!--added section and changed class to minimize css code-->
+            <img src="./assets/images/search-engine-optimization.jpg" alt="A notepad with a SEO Mind Mapping diagram presented on it. Coffee, pens and a laptop surround the notepad" class="image-float" </img>
+            <!--changed class within the image which groups section 1 and section 3 together to allow the image to float left and keep contents the same-->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they
                 travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
                 your visibility and find the right customers for your business.</p>
             
-        </div>
+        </section>
     
 <!---Alt attribute and description added to the image to clarify what is shown.-->
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt="A person who is sitting at their laptop with their phone in their hand. On the computer screen they have a document Reputation document open, showing Bar and Pie charts" class="float-right" />
+        <section id="online-reputation-management" class="content-seo-opm-smm">
+            <!--added section and changed class to minimize css code-->
+            <img src="./assets/images/online-reputation-management.jpg" alt="A person who is sitting at their laptop with their phone in their hand. On the computer screen they have a document Reputation document open, showing Bar and Pie charts" class="image-float-right" />
+            <!--changed class to allow section with float right to have it's own css-->
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an
@@ -50,11 +59,13 @@
                 you the control over what potential customers see when they search for your business.
             </p>
 
-        </div>
+        </section>
 
         <!---Alt attribute and description added to the image to clarify what is shown.-->
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" alt="A group of people sitting around a table which has numerous social media company logos covering it." class="float-left" </img>
+        <section id="social-media-marketing" class="content-seo-opm-smm">
+            <!--added section and changed class to minimize css code-->
+            <img src="./assets/images/social-media-marketing.jpg" alt="A group of people sitting around a table which has numerous social media company logos covering it." class="image-float" </img>
+            <!--changed class within the image which groups section 1 and section 3 together to allow the image to float left and keep contents the same-->
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you
@@ -62,8 +73,8 @@
                 increase your lead generation.
             </p>
 
-        </div>
-    </div>
+        </section>
+    </section>
 
     <div class="benefits">
         <div class="benefit-lead">
