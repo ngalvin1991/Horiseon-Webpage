@@ -60,14 +60,24 @@ p {
 removed background image url and moved to HTML file to add alt text*/
 }
 
+.main-content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    position: sticky;
+
+}
+
 .content-seo-opm-smm {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
     font-size: 36px;
+    position: relative;
+    text-align:
     /*removed content to free up space and moved all elements into one section*/
 }
 
@@ -77,6 +87,7 @@ removed background image url and moved to HTML file to add alt text*/
     font-size: 36px;
     float: left;
     margin-right: 25px;
+    position: relative;
     /*html was changed to reflect section 1 and 3 of the main content, all previous css removed and 
     put into this tag*/
 }
@@ -86,16 +97,10 @@ removed background image url and moved to HTML file to add alt text*/
     margin-bottom: 20px;
     font-size: 36px;
     float: right;
-    margin-right: 25px;
+    margin-right: 0px;
+    position: relative;
     /*html was changed to reflect section 2 of the main content to allow image to float right and keep content in place
     all previous css for section 2 moved into this tag*/
-}
-
-.main-content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-
 }
 
 .benefits {
@@ -104,67 +109,33 @@ removed background image url and moved to HTML file to add alt text*/
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 0%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /* moved all relevant content into one section to clear up CSS.*/
 }
 
-.benefit-lead {
+.header-content {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
     text-align: center;
+    /*kept header and and content together, so all would have the same format
+    and cleared up multiple lines of css*/
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.images {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    /*All images were put under this tag to keep the same display on the webpage and clears up 
+    multiple lines of CSS*/
+   
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    display: none;
-/* Display: none has been added as the footer does not appear in the mockup image provided"
-}
+    
 
