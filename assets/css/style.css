@@ -1,11 +1,11 @@
+body {
+    background-color: #d9dcd6;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-body {
-    background-color: #d9dcd6;
 }
 
 .header {
@@ -24,21 +24,19 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    /*changed tag to reflect change in html (section)*/
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
+    /*changed tag to reflect change in html (section)*/
 }
 
 a {
@@ -137,5 +135,5 @@ removed background image url and moved to HTML file to add alt text*/
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    
+}
 
