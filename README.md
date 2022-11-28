@@ -1,60 +1,43 @@
 # Horiseon Webpage
 
-[Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/
-)
+Here is the deployed website link: 
+https://ngalvin1991.github.io/Horiseon-Webpage/
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
+The objective of this on-the-job ticket task was to modify the starter code provided to allow for better accessibility to the Horiseon web page. 
+This task was performed to make the site more accessible, whether that be through search engines and also allows for people with disabilities to access the page using technology such as screen readers or braille keyboards. 
+The task was to meet certain accessibility standards using Semantic HTML elements, image and icon alt attributes, and making sure both HTML and CSS follow each other throughout while keeping the layout and design of the website the same. 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+In the code provided at the start of the project, within the Navigation Bar the 'Search Engine Optimization' link was unaccessible. This was changed by using the following code: 
+> section id="search-engine-optimization" class="content-seo-opm-smm"
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+As you can see an id tag was inputted which linked this section to the navigation bar. 
 
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/navigation-bar-screenshot.png)
+
+An example of an alt tag being added to an <img> generates a description of the image for persons with disabilities or accessability issues:
+> alt="A notepad with a SEO Mind Mapping diagram presented on it. Coffee, pens and a laptop surround the notepad"
+
+As you can see from the screenshot below, the layout and design remains the same.
+
+![alt text](assets/images/main-content-screenshot.png)
+                
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Here are some useful links that assisted the completion of this project: 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+https://developer.mozilla.org/en-US/docs/Web/CSS
+https://developer.mozilla.org/en-US/docs/Glossary/Semantics
 
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
